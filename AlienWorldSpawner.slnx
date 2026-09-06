@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="AlienWorldSpawner.csproj" Id="a4babd42-fa82-4616-aedf-c80972a71fac">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
