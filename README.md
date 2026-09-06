@@ -77,6 +77,46 @@ MenuKey=PageDown
 
 ---
 
+### 👽 Xenomorph Ped Preparation & Setup Guide
+
+To provide spawn variety, the mod utilizes three distinct height variations (`Regular_Xenomorph`, `Tall_Xenomorph`, and `Tallest_Xenomorph`). Follow these steps to prepare the models from the community pack:
+
+#### 1. Download Required Assets & Tools
+* **Ped Models:** [MTN'S: Halloween Pack | Part I Classic Horror (Addon-Peds) 1.0](https://www.gta5-mods.com/player/mtn-s-hallloween-pack-part-i-classic-horror-addon-peds) by [MTN4456](https://www.gta5-mods.com/users/MTN4456)
+* **Archive & Modding Tool:** [OpenIV](https://www.gta5-mods.com/tools/openiv) by OpenIV Team
+* **Addon Ped Utility:** [Ped Selector [Legacy Only] 1.15a / AddonPeds](https://www.gta5-mods.com/scripts/addon-pedselector) by [FlareXII](https://www.gta5-mods.com/users/FlareXll)
+
+#### 2. Extract & Organize Folders
+1. Extract the `Alien` folder from the downloaded Halloween Pack archive to a working folder on your hard drive.
+2. Inside that directory, create three separate subdirectories:
+   * `Regular Alien`
+   * `Tall Alien`
+   * `Tallest Alien`
+
+#### 3. Copy Base Files & Overwrite Height Variants
+1. Copy the four base files (`Xenomorph_Alien_MT.ydd`, `Xenomorph_Alien_MT.yft`, `Xenomorph_Alien_MT.ymt`, and `Xenomorph_Alien_MT.ytd`) into **each** of the three folders you created.
+2. From the archive's `moreheights/Tall` directory, copy the contents into the `Tall Alien` folder, overwriting the existing `.ydd` and `.yft` files.
+3. From the archive's `moreheights/Taller` directory, copy the contents into the `Tallest Alien` folder, overwriting the existing `.ydd` and `.yft` files.
+
+#### 4. Rename Model Files
+Rename all files in each folder so they match the exact model names registered by the script:
+
+| Folder | Original Prefix | Renamed Files |
+| :--- | :--- | :--- |
+| `Regular Alien/` | `Xenomorph_Alien_MT.*` | `Regular_Xenomorph.ydd`, `Regular_Xenomorph.yft`, `Regular_Xenomorph.ymt`, `Regular_Xenomorph.ytd` |
+| `Tall Alien/` | `Xenomorph_Alien_MT.*` | `Tall_Xenomorph.ydd`, `Tall_Xenomorph.yft`, `Tall_Xenomorph.ymt`, `Tall_Xenomorph.ytd` |
+| `Tallest Alien/` | `Xenomorph_Alien_MT.*` | `Tallest_Xenomorph.ydd`, `Tallest_Xenomorph.yft`, `Tallest_Xenomorph.ymt`, `Tallest_Xenomorph.ytd` |
+
+#### 5. Install as Addon Peds
+1. Use **OpenIV** and **Ped Selector / AddonPeds** to install the three models into your GTA V installation.
+2. Ensure the model names registered in your ped selector match verbatim: `Regular_Xenomorph`, `Tall_Xenomorph`, and `Tallest_Xenomorph`.
+3. Rebuild your addon ped list.
+
+> [!NOTE]
+> Installing addon peds via OpenIV and AddonPeds/Ped Selector follows standard GTA V modding procedure. Numerous step-by-step video tutorials are available on YouTube and GTA5-Mods if you are unfamiliar with the process.
+
+---
+
 ## 🛠️ Installation
 
 1. Ensure **Script Hook V**, **Script Hook V .NET v3**, and **LemonUI.SHVDN3.dll** are installed in your GTA V root and `scripts/` directories.
