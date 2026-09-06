@@ -1,3 +1,4 @@
+<img width="1440" height="900" alt="Grand Theft Auto V Screenshot 2026 09 06 - 16 33 04 88" src="https://github.com/user-attachments/assets/9fd24ab9-192c-4cc7-8509-580bd66e4e41" />
 # Alien World Spawner - GTA V Xenomorph Invasion Mod
 
 [![Platform](https://img.shields.io/badge/Platform-Grand%20Theft%20Auto%20V-blue.svg)](https://www.rockstargames.com/gta-v)
