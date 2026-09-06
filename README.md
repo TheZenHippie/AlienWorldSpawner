@@ -7,6 +7,13 @@
 
 **Alien World Spawner** is a high-performance, dynamic Xenomorph outbreak mod for Grand Theft Auto V. Built on **Script Hook V .NET v3 (SHVDN3)** and **LemonUI**, it converts ambient pedestrians into aggressive, fast-moving Xenomorphs that hunt the player, attack civilians, and pull drivers out of moving vehicles.
 
+**Tested in GTA V v3889 Legacy Story Mode**
+
+**Note** This was a learning project for me. It is stable and functional under my current version of GTA V.
+         As such, I don't intend to add any new features or update the project. The Visual Studio .slnx file
+         and all the source code is available for anyone who wants to expand on the mod or iterate on it. All
+         I ask is for a credit for the original mod in your derivative works. Have fun! 
+
 ---
 
 ## 🚀 Key Features
